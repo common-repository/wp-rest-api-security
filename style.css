@@ -1,0 +1,27 @@
+.wp-rest-api-security #poststuff {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.wp-rest-api-security #poststuff tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.wp-rest-api-security #poststuff th,
+.wp-rest-api-security #poststuff td {
+  padding: 0 0.5em;
+}
+.wp-rest-api-security #poststuff th.endpoint {
+  text-align: left;
+}
+.wp-rest-api-security #poststuff td {
+  text-align: center;
+}
+.wp-rest-api-security #poststuff td.endpoint {
+  font-family: monospace;
+  text-align: left;
+}
+.wp-rest-api-security #poststuff td label {
+  font-weight: normal;
+}
+.wp-rest-api-security #poststuff .postbox .inside {
+  text-align: right;
+}
